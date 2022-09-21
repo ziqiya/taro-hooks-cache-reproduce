@@ -1,0 +1,22 @@
+{
+  "outDir": "./src/api",
+  "templatePath": "./pontTemplate",
+  "usingMultipleOrigins": true,
+  "mocks": {
+    "containDataSources": []
+  },
+  "origins": [
+    {
+      "name": "user",
+      "originUrl": "https://fitness-app.jxzk.thundersdata.com:38210/user/v2/api-docs"
+    },
+    {
+      "name": "commodity",
+      "originUrl": "https://fitness-app.jxzk.thundersdata.com:38210/commodity/v2/api-docs"
+    },
+    {
+      "name": "order",
+      "originUrl": "https://fitness-app.jxzk.thundersdata.com:38210/order/v2/api-docs"
+    }
+  ]
+}

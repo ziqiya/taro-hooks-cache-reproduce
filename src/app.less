@@ -1,0 +1,41 @@
+@import (reference) './styles/variable';
+
+page {
+  // tag 颜色变量设为主题色
+  --tag-default-color: @gray300;
+  --tag-primary-color: @primary50;
+  --tag-warning-color: @func300;
+  --tag-success-color: @func200;
+  --tag-danger-color: @func400;
+  --tag-info-color: @func600;
+  --button-height-medium: 38px;
+  --divider-border-color: rgba(204, 204, 204, 0.5);
+  --dropdown-menu-item-z-index: 199;
+}
+
+.custom-btn {
+  &.outlined {
+    border: 1px solid @func400;
+    background-color: @white;
+  }
+
+  &.warning {
+    border: 1px solid @func300;
+    background-color: @func300;
+  }
+
+  &.text-colored {
+    .H2();
+    color: @func300;
+  }
+
+  &.text-white {
+    .H2();
+    color: @white;
+  }
+
+  &.text-primary {
+    .H2();
+    color: @primary50;
+  }
+}
